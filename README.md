@@ -28,3 +28,10 @@
 ```{.python .input  n=14}
 !bash  ./example/Run_eye.sh
 ```
+## 评测模型性能
+```
+$cd   ./evalution
+$ python get_reslut.py  model_path  best_epoch_num  result_folder
+$ python draw_curve.py  result_folder
+```
+各个脚本作用，参考[./evalution/readme.md](./evalution/readme.md)
